@@ -1,0 +1,4 @@
+interface:
+  display_name: "Session Handoff"
+  short_description: "Create and resume cross-project AI handoffs"
+  default_prompt: "Use $session-handoff to resume the most relevant unfinished task by default. Only create a new OH report after fresh work in the current thread and an explicit user request to write one."

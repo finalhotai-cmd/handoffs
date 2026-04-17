@@ -1,0 +1,41 @@
+{
+  "entries": [
+    {
+      "name": "session-handoff",
+      "type": "skill",
+      "description": "交接工作、接手工作、继续之前任务、恢复之前上下文的技能。用于把一个 AI 会话的工作状态交给另一个 AI，或恢复上次没做完的任务。",
+      "tags": [
+        "接手",
+        "接手",
+        "工作",
+        "任务",
+        "恢复",
+        "继续",
+        "handover",
+        "handoff",
+        "session handoff"
+      ],
+      "aliases": [
+        "交接",
+        "接手",
+        "恢复之前上下文",
+        "继续之前的任务"
+      ],
+      "searchHints": [
+        "把任务交给另一个 AI",
+        "让另一个 AI 接手工作",
+        "恢复上次会话的上下文",
+        "继续上一个 AI 会话",
+        "继续之前没做完的任务",
+        "continue previous task",
+        "resume previous AI session",
+        "restore prior context",
+        "cross-project handoff"
+      ],
+      "filename": "SKILL.md",
+      "quality": "curated",
+      "source": "manual",
+      "confidence": 1.0
+    }
+  ]
+}
