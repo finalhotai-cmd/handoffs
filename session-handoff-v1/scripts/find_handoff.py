@@ -12,7 +12,7 @@ from typing import Iterable
 
 from handoff_format import parse_frontmatter
 
-DEFAULT_ROOT = Path("/Volumes/OSX ExtNVME/code_projects/handoffs")
+DEFAULT_ROOT = Path.home() / "0-handoff"
 DEFAULT_REPORTS = DEFAULT_ROOT / "reports"
 QUALITY_TOKENS = [
     "PROJECT_MISSION",

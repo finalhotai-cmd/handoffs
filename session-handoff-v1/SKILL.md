@@ -1,6 +1,6 @@
 ---
 name: session-handoff
-description: Create and resume cross-project AI handoffs stored under /Volumes/OSX ExtNVME/code_projects/handoffs. Use when the user asks to hand off work, continue from a previous AI session, resume unfinished work, or mentions 交接, 接手, handoff, continue previous task, or restore context.
+description: Create and resume cross-project AI handoffs stored under the current user's home directory at `~/0-handoff`. Use when the user asks to hand off work, continue from a previous AI session, resume unfinished work, or mentions 交接, 接手, handoff, continue previous task, or restore context.
 ---
 
 # Session Handoff

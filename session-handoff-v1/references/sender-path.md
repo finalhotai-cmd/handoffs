@@ -19,7 +19,7 @@ If the thread is cold-started and only knows about prior reports or skill docs, 
 1. Read `references/handoff-schema.md`.
 2. Read `references/extraction-rules.md` if context is noisy or long.
 3. Gather project-level mission, current task, what is already done, design lineage, constraints, risks, and next-step roadmap.
-4. Write the final Markdown report directly into `/Volumes/OSX ExtNVME/code_projects/handoffs/reports/YYYYMMDD-HHMM-project-topic.md`.
+4. Write the final Markdown report directly into `$HOME/0-handoff/reports/YYYYMMDD-HHMM-project-topic.md`.
 5. Run `python3 scripts/register_handoff.py --report-path /abs/path/to/report.md`.
 6. If registration fails, read the error, fix the existing report file, and rerun registration until it succeeds.
 
@@ -73,7 +73,7 @@ Example:
 
 ```bash
 python3 scripts/register_handoff.py \
-  --report-path "/Volumes/OSX ExtNVME/code_projects/handoffs/reports/20260417-2100-codex-project111-session-handoff.md"
+  --report-path "$HOME/0-handoff/reports/20260417-2100-codex-project111-session-handoff.md"
 ```
 
-The registrar validates the final Markdown artifact, normalizes deterministic metadata, and updates `handoffs/index/latest.json`.
+The registrar validates the final Markdown artifact, normalizes deterministic metadata, and updates `$HOME/0-handoff/index/latest.json`.

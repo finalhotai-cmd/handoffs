@@ -6,7 +6,7 @@ Use this path when the user wants to continue, resume, cold-start, 接手, resto
 
 1. Resolve the target report immediately.
    - Default command:
-     `python3 scripts/find_handoff.py --root /Volumes/OSX\ ExtNVME/code_projects/handoffs`
+     `python3 scripts/find_handoff.py --root "$HOME/0-handoff"`
    - If and only if the user explicitly gives a project, query, or target report, add `--workspace-root`, `--query`, or `--status`.
 2. Open the exact `OH` path returned by that command.
 3. Read the selected `OH` report only.

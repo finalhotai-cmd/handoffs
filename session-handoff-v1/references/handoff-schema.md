@@ -1,9 +1,9 @@
 # Handoff Schema
 
-Every `OH` report lives under:
+Every `OH` report lives under the current user's home handoff root:
 
 ```text
-/Volumes/OSX ExtNVME/code_projects/handoffs/reports/
+$HOME/0-handoff/reports/
 ```
 
 Use this filename shape:
@@ -185,7 +185,7 @@ FILES:
 CMDS:
   - python3 scripts/register_handoff.py --report-path /abs/path/to/report.md
 ARTIFACTS:
-  - /Volumes/OSX ExtNVME/code_projects/handoffs/index/latest.json
+  - $HOME/0-handoff/index/latest.json
 ```
 
 ## 5. Work DSL

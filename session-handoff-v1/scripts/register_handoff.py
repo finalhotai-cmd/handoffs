@@ -10,7 +10,7 @@ from pathlib import Path
 
 from handoff_format import REQUIRED_SECTION_KEYS, SECTION_ORDER, extract_section_blocks, parse_frontmatter, parse_mapping_block
 
-DEFAULT_ROOT = Path("/Volumes/OSX ExtNVME/code_projects/handoffs")
+DEFAULT_ROOT = Path.home() / "0-handoff"
 FILENAME_RE = re.compile(r"^(?P<stamp>\d{8}-\d{4})-(?P<project>[a-z0-9]+(?:-[a-z0-9]+)*)-(?P<topic>[a-z0-9]+(?:-[a-z0-9]+)*)\.md$")
 FRONTMATTER_ORDER = [
     "id",
