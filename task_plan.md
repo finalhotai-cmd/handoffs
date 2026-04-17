@@ -28,6 +28,8 @@ Phase 3: Verification & Closeout
 - [x] Review blocking issues (P0/P1 only)
 - [x] Fix registrar root mismatch bug
 - [x] Re-review P0/P1 after the fix
+- [x] Rename the skill directory to `session-handoff`
+- [x] Remove legacy alias and stale textual references
 - [x] Deliver walkthrough
 - **Status:** complete
 

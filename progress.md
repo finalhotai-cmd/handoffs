@@ -1,4 +1,4 @@
-# Progress Log: Fixing Session-Handoff-V1
+# Progress Log: Fixing Session-Handoff
 
 ## Session Log
 
@@ -35,6 +35,14 @@
 - [x] Wrote merged blocking review results to `code_review_report.md`.
 - [x] Reconfirmed that regex whitespace tolerance remains a non-blocking hardening discussion, not a proven correctness blocker for the shipped direct-write contract.
 
+### 2026-04-17: Rename & Cleanup
+- [x] Renamed the skill directory from `session-handoff-v1` to `session-handoff`.
+- [x] Renamed the related `ai-peer-review` target directory to keep the artifact tree aligned.
+- [x] Removed the legacy `references/receive-handoff.md` alias file.
+- [x] Updated stale references in planning files, review artifacts, and documentation.
+- [x] Replaced old schema example values with neutral examples.
+- [x] Removed the local `.DS_Store` residue from the skill directory.
+
 ## Test Results
 | Test Case | Status | Result |
 |-----------|--------|--------|
@@ -50,3 +58,4 @@
 - The hybrid V2 rewrite has been implemented and verified.
 - The remaining review work, if any, is non-blocking robustness review rather than release-blocking correctness work.
 - Excluding peer-review process issues, the main task remains in a cleared state: implementation complete, blocking bug fixed, and no accepted P0/P1 findings remain.
+- The skill package is now consistently named `session-handoff` across runtime files and local artifacts.

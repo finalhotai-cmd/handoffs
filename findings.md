@@ -63,3 +63,10 @@
 - Large report registration succeeded without freeze.
 - Out-of-root report registration is now rejected deterministically.
 - `find_handoff.py` successfully resolves and ranks the newly registered reports.
+
+### 8. Package Naming And Residue Cleanup
+- The skill directory was renamed from `session-handoff-v1` to `session-handoff`.
+- The paired `ai-peer-review/.../session-handoff-v1` artifact directory was renamed to `.../session-handoff`.
+- The legacy alias file `references/receive-handoff.md` was removed because `receiver-path.md` is the canonical receiver reference.
+- Remaining stale textual references to `session-handoff-v1` were cleared from planning files and review artifacts.
+- The schema example no longer uses the old `Codex_Project111` sample values.
