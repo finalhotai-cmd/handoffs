@@ -3,7 +3,7 @@
 ## Target
 
 - **Session ID**: `session-handoff-v2-refactor`
-- **Target ID**: `session-handoff-v1`
+- **Target ID**: `session-handoff`
 - **Role**: `Drafter`
 - **Prior Round**: `round-2-reviewer-response.md`
 

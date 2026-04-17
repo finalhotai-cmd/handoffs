@@ -15,7 +15,7 @@ This plan is decision-complete for implementation and assumes the Antigravity co
 
 ### 1. Registrar script
 
-Add `session-handoff-v1/scripts/register_handoff.py` with one CLI:
+Add `session-handoff/scripts/register_handoff.py` with one CLI:
 
 ```bash
 python3 scripts/register_handoff.py --report-path /abs/path/to/report.md
@@ -96,7 +96,7 @@ Keep `branch` optional unless already present.
 
 Update `references/emit-handoff.md` to point to the new direct-write plus registrar flow.
 
-Delete `session-handoff-v1/scripts/emit_handoff.py` entirely after the new path is implemented.
+Delete `session-handoff/scripts/emit_handoff.py` entirely after the new path is implemented.
 
 No in-repo deprecation path, dual-path mode, or compatibility wrapper is added.
 

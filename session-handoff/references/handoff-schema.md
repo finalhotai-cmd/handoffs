@@ -47,10 +47,10 @@ The writer must create the final Markdown artifact directly.
 ---
 id: 20260320-1530-codex-project111-session-handoff
 created_at: 2026-03-20 15:30
-project_name: Codex_Project111
-workspace_root: /Volumes/OSX ExtNVME/code_projects/Codex_Project111
-branch: codex/session-handoff
-task_title: Build unified session handoff skill
+project_name: DemoProject
+workspace_root: /abs/path/to/project
+branch: main
+task_title: Validate a direct-write handoff workflow
 status: in_progress
 execution_mode: plan_then_wait
 user_gate: required

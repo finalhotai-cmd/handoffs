@@ -2,7 +2,7 @@
 
 ## 2026-04-17
 
-- Created exchange layer at `ai-peer-review/session-handoff-v2-refactor/session-handoff-v1/`.
+- Created exchange layer at `ai-peer-review/session-handoff-v2-refactor/session-handoff/`.
 - Recorded reviewer findings in `round-1.md`.
 - Drafter reviewed Round 1 findings and wrote rebuttals in `round-2.md`.
 - Reviewer issued `round-2-reviewer-response.md` maintaining one major finding.

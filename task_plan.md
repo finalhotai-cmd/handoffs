@@ -1,4 +1,4 @@
-# Task Plan: Fix session-handoff-v1 Freeze (Hybrid Fix)
+# Task Plan: Fix session-handoff Freeze (Hybrid Fix)
 
 ## Goal
 Resolve the PTY buffer deadlock by moving large content writes to native tools while keeping a lightweight shell script for metadata indexing and validation.
@@ -9,7 +9,7 @@ Phase 3: Verification & Closeout
 ## Phases
 
 ### Phase 1: Requirements & Discovery
-- [x] Analyze session-handoff-v1 freeze causes
+- [x] Analyze session-handoff freeze causes
 - [x] Compare with planning-with-files robustness
 - [x] Formulate Hybrid V2 (Direct Write + Registrar)
 - **Status:** complete

@@ -28,11 +28,11 @@
 ## Implementation Findings
 
 ### 4. Direct-Write Rewrite Shipped
-- Added `session-handoff-v1/scripts/register_handoff.py`.
-- Added `session-handoff-v1/scripts/handoff_format.py` to share frontmatter and section parsing.
-- Updated `session-handoff-v1/scripts/find_handoff.py` to use the shared parser.
+- Added `session-handoff/scripts/register_handoff.py`.
+- Added `session-handoff/scripts/handoff_format.py` to share frontmatter and section parsing.
+- Updated `session-handoff/scripts/find_handoff.py` to use the shared parser.
 - Rewrote `references/sender-path.md`, `references/handoff-schema.md`, and `references/emit-handoff.md` to document the final Markdown artifact plus registrar flow.
-- Deleted `session-handoff-v1/scripts/emit_handoff.py`.
+- Deleted `session-handoff/scripts/emit_handoff.py`.
 
 ### 5. Registration Contract Verified
 - Registrar validates filename shape, required frontmatter, canonical section order, fenced `handoff` blocks, and semantic minimums.

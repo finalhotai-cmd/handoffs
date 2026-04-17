@@ -1,7 +1,7 @@
-# Round 1 Review: session-handoff-v1 V2 Rewrite
+# Round 1 Review: session-handoff V2 Rewrite
 
 - **Session ID**: `session-handoff-v2-refactor`
-- **Target ID**: `session-handoff-v1`
+- **Target ID**: `session-handoff`
 - **State**: `reviewing`
 - **Outcome**: `REQUEST_CHANGES`
 

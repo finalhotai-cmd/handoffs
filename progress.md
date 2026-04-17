@@ -11,13 +11,13 @@
 - [x] Synced all findings to `task_plan.md` and `findings.md`.
 
 ### 2026-04-17: Implementation
-- [x] Added `session-handoff-v1/scripts/handoff_format.py`.
-- [x] Added `session-handoff-v1/scripts/register_handoff.py`.
-- [x] Updated `session-handoff-v1/scripts/find_handoff.py` to use shared parsing logic.
-- [x] Rewrote `session-handoff-v1/references/sender-path.md`.
-- [x] Rewrote `session-handoff-v1/references/handoff-schema.md`.
-- [x] Rewrote `session-handoff-v1/references/emit-handoff.md`.
-- [x] Deleted `session-handoff-v1/scripts/emit_handoff.py`.
+- [x] Added `session-handoff/scripts/handoff_format.py`.
+- [x] Added `session-handoff/scripts/register_handoff.py`.
+- [x] Updated `session-handoff/scripts/find_handoff.py` to use shared parsing logic.
+- [x] Rewrote `session-handoff/references/sender-path.md`.
+- [x] Rewrote `session-handoff/references/handoff-schema.md`.
+- [x] Rewrote `session-handoff/references/emit-handoff.md`.
+- [x] Deleted `session-handoff/scripts/emit_handoff.py`.
 
 ### 2026-04-17: Verification
 - [x] Verified valid report registration succeeds.

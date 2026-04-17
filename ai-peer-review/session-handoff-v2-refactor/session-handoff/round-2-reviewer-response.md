@@ -1,4 +1,4 @@
-# Round 2 Reviewer Response: session-handoff-v1
+# Round 2 Reviewer Response: session-handoff
 
 - **Role**: `Reviewer`
 - **Prior State**: `resubmitted`
