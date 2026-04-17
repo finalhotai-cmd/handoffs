@@ -66,6 +66,7 @@ Reject the handoff if it lacks any of these:
 - Never pipe section JSON to any script.
 - Always write the final `.md` artifact first.
 - Registration is mandatory before claiming the sender flow is complete.
+- Do not create or overwrite project-root `AGENTS.md`.
 
 ## Script Usage
 
